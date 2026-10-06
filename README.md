@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MLflow Experiment Tracking Platform
 
 ## 1. Project Title
@@ -136,3 +137,6 @@ Cross-validation and repeated seeds (to measure noise), hyperparameter search wi
 - **UI shows no runs**: start it with `--backend-store-uri sqlite:///mlflow.db` from the project folder.
 - **MLflow 2.x installed**: models appear as a `model/` folder under the run's *Artifacts*; code falls back to `artifact_path=` automatically, but the project is tested on 3.x only.
 - **"untrusted types" error on load (MLflow 3.x)**: the training code already passes `skops_trusted_types` for tree models; keep that if you modify `tracking.py`.
+=======
+# MLflow-Experiment-Tracking-Platform
+>>>>>>> 5663d688af51bab25d5b1d1f2bf95b1c8443e8e8
